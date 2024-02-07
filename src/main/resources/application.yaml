@@ -1,0 +1,14 @@
+server:
+  port: 1956
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: demo2228
+    url: jdbc:mysql://localhost:3306/Magazine
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+  main:
+    allow-circular-references: true
